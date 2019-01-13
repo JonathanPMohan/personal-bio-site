@@ -1,0 +1,51 @@
+{
+  "tech": {
+    "tech1": {
+      "id": "html",
+      "name": "HTML5",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png",
+      "info": "This is where I would say a bunch of stuff about what I know."
+    },
+    "tech2": {
+      "id": "css",
+      "name": "CSS",
+      "imgUrl": "http://www.codingdojo.com/blog/wp-content/uploads/css.jpg",
+      "info": "This is where I would say a bunch of stuff about what I know."
+    },
+    "tech3": {
+      "id": "js",
+      "name": "JavaScript",
+      "imgUrl": "https://vignette.wikia.nocookie.net/shararam-smeshi/images/d/d0/JS.png/revision/latest?cb=20161102175257&path-prefix=ru",
+      "info": "This is where I would say a bunch of stuff about what I know."
+    },
+    "tech4": {
+      "id": "git",
+      "name": "GitHub",
+      "imgUrl": "https://image.flaticon.com/icons/svg/25/25231.svg"
+    },
+    "tech5": {
+      "id": "jquery",
+      "name": "jQuery",
+      "imgUrl": "http://pluspng.com/img-png/jquery-logo-png-jquery-320.png",
+      "info": "This is where I would say a bunch of stuff about what I know."
+    },
+    "tech6": {
+      "id": "bootstrap",
+      "name": "Bootstrap 4",
+      "imgUrl": "https://getbootstrap.com/docs/4.1/assets/img/bootstrap-stack.png",
+      "info": "This is where I would say a bunch of stuff about what I know."
+    },
+    "tech7": {
+      "id": "photoshop",
+      "name": "Adobe Photoshop",
+      "imgUrl": "https://seeklogo.com/images/A/adobe-photoshop-express-logo-CB0F9C1CDD-seeklogo.com.png",
+      "info": "This is where I would say a bunch of stuff about what I know."
+    },
+    "tech8": {
+      "id": "illustrator",
+      "name": "Adobe Illustrator",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Adobe_Illustrator_CS5_icon.png",
+      "info": "This is where I would say a bunch of stuff about what I know."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "projects": {
+    "project1": {
+      "title": "Nutshell",
+      "screenshot": "https://github.com/nss-evening-cohort-8/nutshell-pecans/raw/master/src/images/ss1.png",
+      "description": "This is group project that was built as a single page application that incorporates Firebase CRUD to authenticate and interact with multiple components.",
+      "technologiesUsed": "HTML, JavaScript, Bootstrap, jQuery, Axios, Firebase, CRUD, Webpack",
+      "available": true,
+      "url": "https://nutshell-59c31.firebaseapp.com/",
+      "githubUrl": "https://github.com/nss-evening-cohort-8/nutshell-pecans"
+    },
+    "project2": {
+      "title": "Developer Portal",
+      "screenshot": "https://raw.githubusercontent.com/JonathanPMohan/developer-portal/master/images/screenshot2.png",
+      "description": "This app is our first React project. It includes a GitHub Profile Card and the ability to track/add/delete development tools.",
+      "technologiesUsed": "HTML, JavaScript, React, Bootstrap, jQuery, Axios, Firebase, CRUD, Webpack",
+      "available": true,
+      "url": "https://developer-portal-cf196.firebaseapp.com",
+      "githubUrl": "https://github.com/JonathanPMohan/developer-portal"
+
+    },
+    "project3": {
+      "title": "To-Do App",
+      "screenshot": "https://github.com/JonathanPMohan/Jonathans-To-Do-App/raw/master/screenshots/login.png",
+      "description": "This is a to-do app with a list of unfinished tasks. When the user visits the app, the user can log in with Google authentication to create, edit, and delete tasks. This app makes full use of CRUD axios methods with Firebase.",
+      "technologiesUsed": "HTML, CSS, JavaScript, Webpack, Axios, Firebase, ES6 Modules, SASS, Bootstrap",
+      "available": true,
+      "url": "https://jonathans-to-do-app.firebaseapp.com",
+      "githubUrl": "https://github.com/JonathanPMohan/Jonathans-To-Do-App"
+    }
+  }
+}
