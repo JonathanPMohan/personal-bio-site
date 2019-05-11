@@ -3,7 +3,7 @@ body {
   color: white;
   font-family: 'Roboto Condensed', sans-serif;
   text-align: center;
-  background-image: url("./images/background.png");
+  background-image: url("./images/background2.png");
   margin: 1%;
   padding: 2%;
 }
@@ -35,9 +35,10 @@ nav {
     box-shadow: 0 0 6pt 4pt lightskyblue;
     margin: 1%;
     background-color: black;
-    background-image: url("./images/background.png");
+    background-image: url("./images/background3.png");
     background-attachment: fixed;
     margin-bottom: 5%;
+    
     
 }
 
@@ -51,6 +52,7 @@ nav {
 }
 #buttons {
   margin-top: 2%;
+  margin-bottom: 5%;
 }
 
 .bioPage {
@@ -139,17 +141,17 @@ nav {
 
 .projectcard {
     display: flex;
-    padding: 1%;
+    padding: 2%;
     flex-direction: row;
     flex-wrap: wrap;
     background-color: #2c4a82;
-    width: 50%;
+    width: 35%;
     margin: 2%;
     background-image: url("https://raw.githubusercontent.com/JonathanPMohan/personal-bio-site/master/src/images/card_background.png");
     justify-content: center;
     color: lightskyblue;
-    box-shadow: 5px 7px lightskyblue;
-    border-radius: 18px;
+    box-shadow: 3px 5px lightskyblue;
+    border-radius: 7px;
     border: 2px solid lightskyblue;
   
   
