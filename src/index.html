@@ -5,27 +5,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Roboto+Condensed" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
   <!-- TODO: Insert a title for your page -->
   <title>Jonathan Mohan's Wonderful World of What</title>
-  <link href="index.css" rel="stylesheet">
+  <link href="index.scss" rel="stylesheet">
 </head>
 
 <body>
 
-  <div class="row m-4 col-md-12 buttons">
-    <h1>JONATHAN P. MOHAN</h1>
-    <h3>SOFTWARE DEVELOPER • GRAPHIC DESIGNER • MARKETING SPECIALIST </h3>
-    <div id="buttons" class="d-flex .flex-column flex-wrap">
-      <button type="button" class="fas fa-plus fa-3x" id="all"></button>
-      <button type="button" class="fas fa-id-badge fa-3x" id="navToBio"></button>
-      <button type="button" class="fas fa-cogs fa-3x" id="navToTech"></button>
-      <button type="button" class="fas fa-briefcase fa-3x" id="navToProjects"></button>
-      <button type="button" class="fas fa-book fa-3x" id="navToContact"></button>
-    </div>
+  <div id="buttons" class="d-flex .flex-column flex-wrap">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <h3>SOFTWARE DEVELOPER • GRAPHIC DESIGNER • MARKETING HACK • SOCIAL MEDIA MAVEN • HUMAN BEING</h3>
+      <!-- <a class="navbar-brand">
+        <h2>JONATHAN MOHAN • SOFTWARE DEVELOPER</h2>
+      </a> -->
+      </button>
+      <div class="navbar-nav">
+        <div class="icons">
+          <a class="nav-link fas fa-plus fa-3x" id="all"></a>
+          <a class="nav-link fas fa-id-badge fa-3x" id="navToBio"></button>
+            <a class="nav-link fas fa-cogs fa-3x" id="navToTech"></button>
+              <a class="nav-link fas fa-briefcase fa-3x" id="navToProjects"></button>
+                <a class="nav-link fas fa-book fa-3x" id="navToContact"></a>
+        </div>
+      </div>
+    </nav>
   </div>
+
   <!-- End Navigation -->
 
   <!-- Primary View -->
@@ -35,6 +45,7 @@
         <img id="headshot">
       </div>
       <div class="bioText" id="bioTextDiv">
+        <h1>WHO IS JONATHAN MOHAN?</h1>
         <p>Born and raised in Nashville, TN, I'm one of the few people who can actually fully stake my claim as a true
           Nashvillian. I'm a graduate of Middle Tennessee State University, obtaining a bachelors degree in Journalism:
           Media Design as well as minors in both writing and art. Along with my Bachelors I also own an Associates
@@ -42,16 +53,18 @@
           freelance designer,
           marketing specialist and social media manager for a while now, as well as managing a wine, spirits and craft
           beer store full time. Although I wear many hats, no role is more important to me than the one of husband and
-          father.I want to go into development because I'm a highly creative individual who's always had a passion for
-          communications and technology. What better way that to merge my interests into a career path?</p>
+          father. I want to go into development because I'm a highly creative individual who's always had a passion for
+          communications and technology. It seems to me to be the logical next step in my career.
+        </p>
+
+        <p>• You Can Browse My Freelance Graphic Design Site ----->
+          <a href="http://www.jonathanmedia.com" target=_blank>HERE</a></p>
       </div>
     </div>
   </div>
 
   <div id=techContainer>
     <img id="icons">
-    <!-- <div class="techPage" id="technologiesPage"> -->
-    <!-- </div> -->
   </div>
 
   <div id="projectContainer">
@@ -66,16 +79,23 @@
   <div id="contactContainer">
     <footer class="page-footer" id="contactPage">
       <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
-      <h2>E: info@JonathanMedia.com</h2>
-      <h3>615.870.7959</h3>
+      <!-- <h2>E: info@JonathanMedia.com</h2>
+      <h3>615.870.7959</h3> -->
 
 
 
-      <p><a href="https://www.linkedin.com/in/jonathan-mohan-694b078b/" target=_blank><img id="linkedLogo"></a>
+      <p>
+        <a href="http://www.jonathanmedia.com" target=_blank><img id="phoneLogo"></a>
+        <a href="http://www.jonathanmedia.com" target=_blank><img id="emailLogo"></a>
+        <a href="https://www.linkedin.com/in/jonathan-mohan-694b078b/" target=_blank><img id="linkedLogo"></a>
 
         <a href="https://github.com/JonathanPMohan" target=_blank><img id="githubLogo"></a>
 
-        <a href="http://www.jonathanmedia.com" target=_blank><img id="webLogo"></a></p>
+        <a href="http://www.jonathanmedia.com" target=_blank><img id="webLogo"></a>
+
+      </p>
+
+
 
     </footer>
   </div>
