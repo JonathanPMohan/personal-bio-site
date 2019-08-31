@@ -25,7 +25,9 @@ const createProjectCards = (projects) => {
         <div class="card-block col-5 my-auto">
           <h1 class="card-title text-center">${project.title}</h1>
           <h4 class="card-text text-center m-3">${project.description}</h4>
-          <h5 class="card-text text-center">Technologies Used: ${project.technologiesUsed}</h5>
+          <h1> Technologies Used: </h1>
+          <hr>
+          <h4 class="card-text text-center"> ${project.technologiesUsed}</h4>
         </div> 
       </div>  
         <div class="card-footer w-100 text-muted row d-flex justify-content-around">
